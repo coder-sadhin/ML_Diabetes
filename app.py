@@ -153,5 +153,5 @@ with gr.Blocks() as app:
 if __name__ == "__main__":
     app.launch(
         theme=gr.themes.Soft(),
-        share=False
+        share=True
     )
